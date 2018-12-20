@@ -1,12 +1,8 @@
 学习了一阵子的SSM框架，一直在各种博客，简书，慕课网学习，最后终于自己撸出来一个简单的个人相册。
-***
-项目的演示效果：
-![个人相册.gif](http://upload-images.jianshu.io/upload_images/3435345-a4747ccc476e7c51.gif?imageMogr2/auto-orient/strip)
-***
+
 开发的工具及环境：
 IntelliJ IDEA: 2016
 Maven :3.0x
-Hbuilder(前端部分，可以用记事本代替2333)
 Java 8
 ***
 项目流程（dao->service->web）：
@@ -516,7 +512,3 @@ public class MainController {
 }
  ``` 
 至此项目就到此为止！
-***
-期间遇到好多好多坑，比如mybatis无端端就连不上，或者莫名其妙扫描不到我的Spring配置文件，可是我在我IDEA明明ctrl点击找的到，反正很多很多，有些解决了，有些还是不懂，不过以后慢慢接触应该就会越来越熟悉！
-后面的计划应该会给项目加Shiro用户提权，虽然我的也是要登陆才能上传图片，所以我不太清楚Shiro对我好像用处不大，不过还是学一学，加进去。然后再学点高并发并且加进去，虽然如果我搭建了我这个项目到我的服务器，也不可能有很多人同时访问这个网站，但是高并发这种东西还是要学学的。
-最后献上我的项目的地址:<strong>https://github.com/Elricyo/SSM</strong>
